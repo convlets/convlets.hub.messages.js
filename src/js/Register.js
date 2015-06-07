@@ -1,14 +1,22 @@
-/// <reference path="../../jspm_packages/github/convlets/convlets.core.messages.js@master/js/ConvletCommand.ts" />
-var __extends = this.__extends || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    __.prototype = b.prototype;
-    d.prototype = new __();
-};
-var Register = (function (_super) {
-    __extends(Register, _super);
+var Register = (function () {
     function Register() {
-        _super.apply(this, arguments);
     }
+    Object.defineProperty(Register.prototype, "ID", {
+        get: function () {
+            return this.id;
+        },
+        set: function (value) {
+            this.id = value;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(Register.prototype, "TypeID", {
+        get: function () {
+            return "CAE77047-222F-4FF0-86BB-CD2DD5D21ABF";
+        },
+        enumerable: true,
+        configurable: true
+    });
     return Register;
-})(ConvletCommand);
+})();

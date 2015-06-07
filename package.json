@@ -1,9 +1,9 @@
 {
   "jspm": {
-    "directories": {},
-    "dependencies": {
-      "convlets/convlets.core.messages.js": "github:convlets/convlets.core.messages.js@master"
+    "directories": {
+      "lib": "src"
     },
+    "dependencies": {},
     "devDependencies": {
       "babel": "npm:babel-core@^5.1.13",
       "babel-runtime": "npm:babel-runtime@^5.1.13",
