@@ -17,6 +17,7 @@ System.config({
   "map": {
     "babel": "npm:babel-core@5.4.7",
     "babel-runtime": "npm:babel-runtime@5.4.7",
+    "convlets/convlets.core.messages.js": "github:convlets/convlets.core.messages.js@master",
     "core-js": "npm:core-js@0.9.13",
     "github:jspm/nodelibs-process@0.1.1": {
       "process": "npm:process@0.10.1"
