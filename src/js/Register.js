@@ -18,5 +18,15 @@ var Register = (function () {
         enumerable: true,
         configurable: true
     });
+    Object.defineProperty(Register.prototype, "UserName", {
+        get: function () {
+            return this.username;
+        },
+        set: function (value) {
+            this.username = value;
+        },
+        enumerable: true,
+        configurable: true
+    });
     return Register;
 })();
