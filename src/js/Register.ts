@@ -1,4 +1,4 @@
-class Register implements IConvletCommand
+class Register
 {
 	private id: string;
     public get ID() {
