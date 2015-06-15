@@ -1,10 +1,10 @@
 var Register = (function () {
-    function Register(id, username, password, phoneNumber, confirmedPhoneNumber) {
+    function Register(id, username, phoneNumber, password, confirmedPassword) {
         this.id = id;
         this.username = username;
-        this.password = password;
         this.phoneNumber = phoneNumber;
-        this.confirmedPhoneNumber = confirmedPhoneNumber;
+        this.password = password;
+        this.confirmedPassword = confirmedPassword;
         this.typeID = "CAE77047-222F-4FF0-86BB-CD2DD5D21ABF";
     }
     return Register;
