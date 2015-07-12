@@ -1,4 +1,5 @@
-/// <reference path="Guid.ts" />
+///<reference path="Guid.ts" />
+/// <reference path="ClientProxy.ts" />
 
 class Register
 {
@@ -15,3 +16,4 @@ class Register
         this.processID = Guid.newGuid();
     }   
 }
+client.registerCommand("CAE77047-222F-4FF0-86BB-CD2DD5D21ABF");

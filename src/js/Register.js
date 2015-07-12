@@ -1,4 +1,5 @@
-/// <reference path="Guid.ts" />
+///<reference path="Guid.ts" />
+/// <reference path="ClientProxy.ts" />
 var Register = (function () {
     function Register(username, phoneNumber, password, confirmedPassword) {
         this.username = username;
@@ -11,3 +12,4 @@ var Register = (function () {
     }
     return Register;
 })();
+client.registerCommand("CAE77047-222F-4FF0-86BB-CD2DD5D21ABF");
